@@ -16,7 +16,7 @@ const motdElem = document.getElementById('motd');
 
 
 // Установка начальных значений
-publicIpElem.textContent = CONFIG.PUBLIC_IP;
+publicIpElem.textContent = 78.36.107.173;
 portElem.textContent = CONFIG.SERVER_PORT;
 
 // Функция: выполнить запрос с таймаутом (без AbortController)
@@ -101,3 +101,4 @@ setInterval(updateStatus, CONFIG.REFRESH_INTERVAL);
 
 // Первое обновление при загрузке
 window.addEventListener('load', updateStatus);
+
